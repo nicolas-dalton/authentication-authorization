@@ -1,0 +1,12 @@
+create table UserAccounts
+(user_id int auto_increment not null,
+user_name varchar(30),
+password varchar(50),
+clearance varchar(1),
+primary key (user_id)
+) Engine=InnoDB;
+
+insert into UserAccounts values (Null, 'Bob', 'a3aca2964e72000eea4c56cb341002a4', 'S');
+insert into UserAccounts values (Null, 'Alice', '4f593bb12e0404f5afb6caee370f919c', 'T');
+insert into UserAccounts values (Null, 'Charlie', 'a9a13e53a0e463c800b810c25ea88ef8', 'C');
+insert into UserAccounts values (Null, 'Dave', '0eac1fd58a2bcb3b94684b53768f6e17', 'U');
